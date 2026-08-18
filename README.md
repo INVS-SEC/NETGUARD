@@ -1,13 +1,33 @@
-# ProbeAxis
+## Current Progress
 
-**ProbeAxis is designed for authorised security testing and educational use. Only scan systems you own or have permission to test.**
+# Version 0.1 - Initial Scanner
 
-ProbeAxis is a Python network security tool that accepts an IP address or hostname and is being developed to:
+So far, ProbeAxis can:
 
-- Scan a predefined range of ports.
-- Report open and closed ports.
-- Create a log of scan results.
-- Identify common services where possible.
-- Analyse scan results and provide risk indicators.
+- Accept IPv4 addresses or hostnames as inputs
+- Determine whether inputs are IPs or hostnames
+- Resolve hostnames to IP addresses
+- Determine whether an IP is private or public
+- Scan a predefined range of TCP ports
+- Identify open and closed ports
+- Store scan results in lists
+- Generate timestamped scan logs
 
-By the end of the project, I aim to carry NetGuard over into a web interface hosted under a public domain. The website will be designed so that each user has their own account and can view their historical scans, scan details, identified services, and risk indicators.
+# What Ive Learned
+
+This is my first cybersec focused Python project. During the first stage of development, I've learnt and practised:
+
+- Python variables and Boolean state
+- if / elif / else logic
+- try / except error handling
+- Python modules and using documentation
+- IP address handling with ipaddress
+- DNS resolution and sockets
+- TCP connections and ports
+- for loops and range()
+- Lists and .append()
+- File creation and writing
+- Datetime and strftime()
+- Basic Git/GitHub workflow
+
+I'm building ProbeAxis incrementally, with the goal of making each stage more independent and eventually developing it into a more complete security assessment tool.

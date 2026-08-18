@@ -1,8 +1,8 @@
-# NETGUARD
+# ProbeAxis
 
-**NetGuard is designed for authorised security testing and educational use. Only scan systems you own or have permission to test.**
+**ProbeAxis is designed for authorised security testing and educational use. Only scan systems you own or have permission to test.**
 
-NetGuard is a Python network security tool that accepts an IP address or hostname and is being developed to:
+ProbeAxis is a Python network security tool that accepts an IP address or hostname and is being developed to:
 
 - Scan a predefined range of ports.
 - Report open and closed ports.

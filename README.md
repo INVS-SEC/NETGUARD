@@ -13,7 +13,7 @@ So far, ProbeAxis can:
 - Store scan results in lists
 - Generate timestamped scan logs
 
-# What Ive Learned
+# What I've Learned
 
 This is my first cybersec focused Python project. During the first stage of development, I've learnt and practised:
 

@@ -10,6 +10,7 @@ So far, ProbeAxis can:
 - Determine whether an IP is private or public
 - Scan a predefined range of TCP ports
 - Identify open and closed ports
+- Open and write a logfile for each port scan.
 - Store scan results in lists
 - Generate timestamped scan logs
 
